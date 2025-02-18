@@ -2,7 +2,7 @@ import { li } from "framer-motion/client";
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.webp";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate full web stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React, Next.js, Html, CSS, Javascript as well as back-end technologies like Node.js, MySQL, Php, C#, Java, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -62,6 +62,14 @@ export const PROJECTS = [
       "A website that allows users to customize phone back covers with text, images, and colors",
     technologies: ["HTML", "TailwindCss", "TypeScript", "Next.js", "Neon", "Uploadthing"],
     link: "https://github.com/hirushasanjula/casecobra.git"
+  },
+  {
+    title: "Mren Stack Full Project",
+    image: project4,
+    description:
+      "A fully functional e-commerce website with features like product listing, shopping cart, online payment and user authentication, manage product in admin dashboard.",
+    technologies: ["HTML", "TailwindCss", "javascript", "React", "MongoDB", "cloudinary"],
+    link: "https://github.com/hirushasanjula/Shop_mart.git"
   },
 ];
 

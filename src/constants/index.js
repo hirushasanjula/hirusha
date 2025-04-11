@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
+
 
 export const HERO_CONTENT = `I am a passionate full web stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React, Next.js, Html, CSS, Javascript as well as back-end technologies like Node.js, MySQL, Php, C#, Java, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -69,6 +71,15 @@ export const PROJECTS = [
       "A fully functional e-commerce website with features like product listing, shopping cart, online payment and user authentication, manage product in admin dashboard.",
     technologies: ["HTML", "TailwindCss", "javascript", "React", "MongoDB", "cloudinary"],
     link: "https://github.com/hirushasanjula/Shop_mart.git"
+  },
+  {
+    title: "CarMarket Place Web Project",
+    image: project5,
+    description:
+      "A fully functional Carmarket place website with features like vehicel listing, user vehicel list page, live location vehicel located place in map(only show city), search and filter method, chatbot help, admin and user authentication, manage vehicle in admin dashboard. All are mobile responsive",
+    technologies: ["HTML", "TailwindCss", "javascript", "Next.js", "MongoDB", "cloudinary"],
+    link: "https://github.com/hirushasanjula/carmarket.git",
+    live: "https://carmarket-leh4.onrender.com"
   },
 ];
 

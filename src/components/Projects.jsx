@@ -58,13 +58,21 @@ const Projects = () => {
               ))}
 
               {/* Project Link (Fixed) */}
-              <a 
-                href={project.link} 
-                target="_blank" 
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block mt-4 mr-4 text-blue-400 hover:text-blue-300 transition"
+              >
+                🔗 View Project
+              </a>
+              <a
+                href={project.live}
+                target="_blank"
                 rel="noreferrer"
                 className="inline-block mt-4 text-blue-400 hover:text-blue-300 transition"
               >
-                🔗 View Project
+                🔗 Live Site
               </a>
             </motion.div>
           </motion.div>

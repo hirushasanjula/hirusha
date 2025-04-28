@@ -76,7 +76,7 @@ export const PROJECTS = [
     title: "CarMarket Place Web Project",
     image: project5,
     description:
-      "A fully functional Carmarket place website with features like vehicel listing, user vehicel list page, live location vehicel located place in map(only show city), search and filter method, chatbot help, admin and user authentication, manage vehicle in admin dashboard. All are mobile responsive",
+      "A fully functional Carmarket place website with features like vehicle listing, user vehicel list page, live location vehicle located place in map(only show city), search and filter method, chatbot help, admin and user authentication, manage vehicle in admin dashboard. All are mobile responsive",
     technologies: ["HTML", "TailwindCss", "javascript", "Next.js", "MongoDB", "cloudinary"],
     link: "https://github.com/hirushasanjula/carmarket.git",
     live: "https://carmarket-leh4.onrender.com"

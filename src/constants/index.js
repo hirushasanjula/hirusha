@@ -42,6 +42,24 @@ export const experience = [
 
 export const PROJECTS = [
   {
+    title: "CarMarket Place Web Project",
+    image: project5,
+    description:
+      "A fully functional Carmarket place website with features like vehicle listing, user vehicel list page, live location vehicle located place in map(only show city), search and filter method, chatbot help, admin and user authentication, manage vehicle in admin dashboard. All are mobile responsive",
+    technologies: ["HTML", "TailwindCss", "javascript", "Next.js", "MongoDB", "cloudinary"],
+    link: "https://github.com/hirushasanjula/carmarket.git",
+    live: "https://carmarket-leh4.onrender.com"
+  },
+  {
+    title: "Restaurants Web Project React",
+    image: project6,
+    description:
+      "A fully functional Restaurants website with features like Home Page, Menu Page, Cart Page,  admin and user authentication, admin dashboard for manage Menu Items. All are mobile responsive",
+    technologies: ["HTML", "TailwindCss", "javascript", "Next.js", "MongoDB", "cloudinary"],
+    link: "https://github.com/hirushasanjula/restaurant.git",
+    live: "https://restaurant-frontend-owxq.onrender.com"
+  },
+  {
     title: "E-Commerce Website React",
     image: project1,
     description:
@@ -73,24 +91,7 @@ export const PROJECTS = [
     technologies: ["HTML", "TailwindCss", "javascript", "React", "MongoDB", "cloudinary"],
     link: "https://github.com/hirushasanjula/Shop_mart.git"
   },
-  {
-    title: "CarMarket Place Web Project",
-    image: project5,
-    description:
-      "A fully functional Carmarket place website with features like vehicle listing, user vehicel list page, live location vehicle located place in map(only show city), search and filter method, chatbot help, admin and user authentication, manage vehicle in admin dashboard. All are mobile responsive",
-    technologies: ["HTML", "TailwindCss", "javascript", "Next.js", "MongoDB", "cloudinary"],
-    link: "https://github.com/hirushasanjula/carmarket.git",
-    live: "https://carmarket-leh4.onrender.com"
-  },
-  {
-    title: "Restaurants Web Project React",
-    image: project6,
-    description:
-      "A fully functional Restaurants website with features like Home Page, Menu Page, Cart Page,  admin and user authentication, admin dashboard for manage Menu Items. All are mobile responsive",
-    technologies: ["HTML", "TailwindCss", "javascript", "Next.js", "MongoDB", "cloudinary"],
-    link: "https://github.com/hirushasanjula/restaurant.git",
-    live: "https://restaurant-frontend-owxq.onrender.com"
-  },
+ 
 ];
 
 export const CONTACT = {

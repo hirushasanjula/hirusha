@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 
 
 export const HERO_CONTENT = `I am a passionate full web stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React, Next.js, Html, CSS, Javascript as well as back-end technologies like Node.js, MySQL, Php, C#, Java, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -56,8 +57,17 @@ export const PROJECTS = [
     description:
       "A fully functional Restaurants website with features like Home Page, Menu Page, Cart Page,  admin and user authentication, admin dashboard for manage Menu Items. All are mobile responsive",
     technologies: ["HTML", "TailwindCss", "javascript", "Next.js", "MongoDB", "cloudinary"],
-    link: "https://github.com/hirushasanjula/restaurant.git",
-    live: "https://restaurant-frontend-owxq.onrender.com"
+    link: "https://github.com/hirushasanjula/Team-Scheduling.git",
+    live: "https://team-scheduling.onrender.com"
+  },
+  {
+    title: "Team Management Web Project",
+    image: project7,
+    description:
+      "A fully functional Team Management website with features like team creation, member management, task assignment, and progress tracking. It includes user authentication and an admin dashboard for managing teams and tasks.",
+    technologies: ["HTML", "TailwindCss", "javascript", "Next.js", "MongoDB", "cloudinary"],
+    link: "https://github.com/hirushasanjula/carmarket.git",
+    live: "https://carmarket-leh4.onrender.com"
   },
   {
     title: "E-Commerce Website React",
